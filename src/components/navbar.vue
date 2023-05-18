@@ -4,10 +4,7 @@
   <div class="bg-white shadow-lg">
     <div class="flex items-center max-w-7xl justify-between container mx-auto">
       <div>
-        <img
-          src="../assets/logos/Rugby Sports Club Logo (1).png"
-          width="100px"
-        />
+        <img src="../assets/logos/Rugby_Sports.png" width="100px" />
       </div>
       <div
         class="flex items-center justify-between capitalize space-x-16 text-lg"
