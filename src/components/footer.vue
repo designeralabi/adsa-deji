@@ -57,7 +57,7 @@ import { RouterLink, RouterView } from "vue-router";
         class="bg-[rgba(13, 25, 57, 1)] flex justify-between items-center mt-8"
       >
         <p>© 2023 SQUASHTV. All Rights Reserved.</p>
-        <div class="space-x-8 lg:flex items-center hidden ">
+        <div class="space-x-8 lg:flex items-center hidden">
           <p>Privacyaa Policy</p>
         </div>
       </div>

@@ -60,7 +60,7 @@ import GoalCard from "../components/goalCard.vue";
       </div>
     </div>
 
-    <div class="py-20 flex justify-between gap-16 items-center mt-20">
+    <div class="py-20 flex flex-col lg:flex-row justify-between gap-16 items-center mt-20">
       <!-- mission -->
       <div class="bg-[#747bff] p-8 rounded-2xl">
         <h2 class="text-white text-3xl font-bold">Our Mission</h2>
