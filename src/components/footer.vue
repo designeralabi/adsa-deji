@@ -1,19 +1,64 @@
+<script setup>
+import { RouterLink, RouterView } from "vue-router";
+</script>
 <template>
-  <div class="bg-black text-white py-8">
+  <div class="bg-black text-white py-24">
     <div class="container mx-auto max-w-7xl">
-      <div>
-        <h3>contact</h3>
-        <h4>info@adsasquash.org</h4>
-        <h4>+1 (443) 538-0247</h4>
+      <div class="flex justify-between">
+        <div>
+          <h3 class="text-gray-500 font-bold text-xl">Get in touch</h3>
+          <div class="font-semibold mt-4">
+            <h4>info@adsasquash.org</h4>
+            <h4>+1 (443) 538-0247</h4>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-gray-500 font-bold text-xl">connect</h3>
+          <div class="flex flex-col font-semibold mt-4">
+            <a href="#" class="text-white">LinkedIn</a>
+            <a href="#" class="text-white">Instagram</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-gray-500 font-bold text-xl">connect</h3>
+          <div class="flex flex-col font-semibold mt-4">
+            <a href="#" class="text-white">LinkedIn</a>
+            <a href="#" class="text-white">Instagram</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-gray-500 font-bold text-xl">connect</h3>
+          <div class="flex flex-col font-semibold mt-4">
+            <a href="#" class="text-white">LinkedIn</a>
+            <a href="#" class="text-white">Instagram</a>
+          </div>
+        </div>
       </div>
 
+      <nav
+        class="grid grid-cols-3 capitalize text-lg bg-white rounded-full p-2 w-[400px] mx-auto my-12"
+      >
+        <RouterLink to="/" class="px-8 h-12 flex items-center justify-center"
+          >Home</RouterLink
+        >
+        <RouterLink
+          to="/about"
+          class="px-8 h-12 flex items-center justify-center"
+          >About</RouterLink
+        >
+        <RouterLink
+          to="/gallery"
+          class="px-8 h-12 flex items-center justify-center"
+          >gallery</RouterLink
+        >
+      </nav>
+      <hr class="border-gray-400 border-t-1 my-16" />
       <div
         class="bg-[rgba(13, 25, 57, 1)] flex justify-between items-center mt-8"
       >
         <p>© 2023 SQUASHTV. All Rights Reserved.</p>
         <div class="space-x-8 flex items-center">
           <p>Privacy Policy</p>
-          <p><a href="/contact"> Contact Us</a></p>
         </div>
       </div>
     </div>

@@ -1,13 +1,33 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
-import Navbar from "./components/navbar.vue";
-import Hero from "./components/hero.vue";
+import { RouterLink, RouterView } from "vue-router";
 import Footer from "./components/footer.vue";
 </script>
 
 <template>
-  <Navbar />
-  <Hero />
-  <HelloWorld msg="Vite + Vue" />
+  <header class="bg-white shadow-lg">
+    <div class="flex items-center max-w-7xl justify-between container mx-auto">
+      <img
+        src="./assets/logos/Rugby_Sports.png"
+        width="100"
+        height="100"
+        alt="rugby_logo"
+      />
+
+      <nav
+        class="flex items-center justify-between capitalize space-x-16 text-lg"
+      >
+        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/gallery">gallery</RouterLink>
+      </nav>
+      <button
+        class="border-2 bg-[#ff4040] border-none text-white px-8 py-2 capitalize outline-none hover:bg-[#d90000] font-bold rounded-md"
+      >
+        donate
+      </button>
+    </div>
+  </header>
+
+  <RouterView />
   <Footer />
 </template>
