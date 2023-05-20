@@ -57,7 +57,7 @@
     <!-- mission -->
     <div class="bg-[#747bff] my-48 p-8">
       <h2 class="text-white text-3xl font-bold">Our Mission</h2>
-      <p class=" text-white my-8 text-xl leading-normal">
+      <p class="text-white my-8 text-xl leading-normal">
         Our mission is to provide a positive and inclusive environment for
         squash players of African descent in America, while also giving back to
         the youth in Africa through the sport. We aim to develop and promote the
@@ -88,6 +88,48 @@
           underprivileged communities.
         </h3>
         h
+      </div>
+    </div>
+    <div>
+      <div>
+        <h3>what you should know</h3>
+        <p>
+          Got questions? We’ve got answers. Learn all about our facility and why
+          we’re the right one for you. We have collected some of the most
+          frequently asked questions that we receive below. We’ve tried to
+          provide the best answers, but if there is something that we missed,
+          please reach out and a member of our staff will get in touch with you!
+        </p>
+      </div>
+      <!-- faq -->
+      <div>
+        <div>
+          <h3>Do you offer a trial membership?</h3>
+          <P>
+            Enter your answer here. Be thoughtful, write clearly and concisely,
+            and consider adding written as well as visual examples. Go over what
+            you’ve written to make sure that if it was the first time you were
+            visiting the site, you’d understand the answer.</P
+          >
+        </div>
+        <div>
+          <h3>Do you offer guest passes?</h3>
+          <P>
+            Enter your answer here. Be thoughtful, write clearly and concisely,
+            and consider adding written as well as visual examples. Go over what
+            you’ve written to make sure that if it was the first time you were
+            visiting the site, you’d understand the answer.</P
+          >
+        </div>
+        <div>
+          <h3>Do you offer guest passes?</h3>
+          <P>
+            Enter your answer here. Be thoughtful, write clearly and concisely,
+            and consider adding written as well as visual examples. Go over what
+            you’ve written to make sure that if it was the first time you were
+            visiting the site, you’d understand the answer.</P
+          >
+        </div>
       </div>
     </div>
   </div>
