@@ -4,7 +4,7 @@ import Button from "../components/button.vue";
 
 <template>
   <div
-    class="flex flex-col bg-[#6e58e2] items-center justify-center py-24"
+    class="flex flex-col bg-[#6e58e2] items-center justify-center py-24 px-6 lg:px-0"
   >
     <div class="mx-auto container text-center text-white max-w-5xl">
       <h3 class="text-4xl mb-10 font-bold">

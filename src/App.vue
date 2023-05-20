@@ -5,11 +5,13 @@ import Footer from "./components/footer.vue";
 
 <template>
   <header class="bg-white shadow-lg">
-    <div class="flex items-center max-w-7xl justify-between container mx-auto">
+    <div
+      class="flex items-center py-2 max-w-7xl justify-between container mx-auto"
+    >
       <img
-        src="./assets/logos/Rugby_Sports.png"
-        width="100"
-        height="100"
+        src="./assets/logos/nasa_logo.jpeg"
+        width="80"
+        height="80"
         alt="rugby_logo"
       />
 

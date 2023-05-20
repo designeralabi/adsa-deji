@@ -3,8 +3,8 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 <template>
   <div class="bg-black text-white py-24">
-    <div class="container mx-auto max-w-7xl">
-      <div class="flex justify-between">
+    <div class="container mx-auto max-w-7xl px-6 lg:px-0">
+      <div class="flex flex-col lg:flex-row justify-between">
         <div>
           <h3 class="text-gray-500 font-bold text-xl">Get in touch</h3>
           <div class="font-semibold mt-4">
@@ -36,7 +36,7 @@ import { RouterLink, RouterView } from "vue-router";
       </div>
 
       <nav
-        class="grid grid-cols-3 capitalize text-lg bg-white rounded-full p-2 w-[400px] mx-auto my-12"
+        class="lg:grid grid-cols-3 capitalize text-lg bg-white rounded-full p-2 w-[400px] mx-auto my-12 hidden"
       >
         <RouterLink to="/" class="px-8 h-12 flex items-center justify-center"
           >Home</RouterLink
@@ -52,12 +52,12 @@ import { RouterLink, RouterView } from "vue-router";
           >gallery</RouterLink
         >
       </nav>
-      <hr class="border-gray-400 border-t-1 my-16" />
+      <hr class="border-gray-400 border-t-1 my-16 hidden lg:block" />
       <div
         class="bg-[rgba(13, 25, 57, 1)] flex justify-between items-center mt-8"
       >
         <p>© 2023 SQUASHTV. All Rights Reserved.</p>
-        <div class="space-x-8 flex items-center">
+        <div class="space-x-8 lg:flex items-center hidden ">
           <p>Privacyaa Policy</p>
         </div>
       </div>
