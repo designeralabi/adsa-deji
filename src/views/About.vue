@@ -1,7 +1,7 @@
 <script setup>
 import ChevronRightIcon from "vue-material-design-icons/ChevronRight.vue";
 import ChevronDownIcon from "vue-material-design-icons/ChevronDown.vue";
-// import PlusIcon from "vue-material-design-icons/Plus.vue";
+import GoalCard from "../components/goalCard.vue";
 </script>
 <template>
   <div class="container mx-auto max-w-7xl">
@@ -59,43 +59,75 @@ import ChevronDownIcon from "vue-material-design-icons/ChevronDown.vue";
         />
       </div>
     </div>
-    <!-- mission -->
-    <div class="bg-[#747bff] my-48 p-8">
-      <h2 class="text-white text-3xl font-bold">Our Mission</h2>
-      <p class="text-white my-8 text-xl leading-normal">
-        Our mission is to provide a positive and inclusive environment for
-        squash players of African descent in America, while also giving back to
-        the youth in Africa through the sport. We aim to develop and promote the
-        skills and talents of our team members, while also fostering a sense of
-        community and social responsibility. Through our efforts, we hope to
-        inspire and empower the next generation of squash players in Africa,
-        while also building a strong and successful team in America.
-      </p>
-    </div>
-    <!-- vision -->
-    <div>
-      <h2>Our Vision</h2>
-      <p>
-        Our vision is to create a community of passionate squash players in
-        America that celebrates and promotes the diversity of the African
-        diaspora through the sport. We strive to empower and inspire individuals
-        to reach their full potential on and off the court, while fostering a
-        culture of inclusivity and excellence.
-      </p>
+
+    <div class="py-20 flex justify-between gap-16 items-center mt-20">
+      <!-- mission -->
+      <div class="bg-[#747bff] p-8 rounded-2xl">
+        <h2 class="text-white text-3xl font-bold">Our Mission</h2>
+        <p class="text-white my-8 text-xl leading-normal">
+          Our mission is to provide a positive and inclusive environment for
+          squash players of African descent in America, while also giving back
+          to the youth in Africa through the sport. We aim to develop and
+          promote the skills and talents of our team members, while also
+          fostering a sense of community and social responsibility. Through our
+          efforts, we hope to inspire and empower the next generation of squash
+          players in Africa, while also building a strong and successful team in
+          America.
+        </p>
+      </div>
+      <!-- vision -->
+      <div class="bg-[#ff4040] p-8 rounded-2xl">
+        <h2 class="text-white text-3xl font-bold">Our Vision</h2>
+        <p class="text-white my-8 text-xl leading-normal">
+          Our vision is to create a community of passionate squash players in
+          America that celebrates and promotes the diversity of the African
+          diaspora through the sport. We strive to empower and inspire
+          individuals to reach their full potential on and off the court, while
+          fostering a culture of inclusivity and excellence.
+        </p>
+      </div>
     </div>
 
     <!-- goals -->
-    <div>
-      <h2>Our Goals</h2>
-      <div>
-        <h3>
-          Providing access to squash equipment and training for young people in
-          underprivileged communities.
-        </h3>
-        h
+    <div class="py-32">
+      <h2 class="text-5xl font-bold mb-20 flex items-center justify-center">
+        Our Goals
+      </h2>
+      <div class="grid grid-cols-5 gap-6">
+        <GoalCard
+          content="Providing access to squash equipment and training for young people in underprivileged communities."
+        />
+        <GoalCard
+          content=" Organizing events and tournaments to promote the sport of squash in Africa."
+        />
+        <GoalCard
+          content=" Building a sustainable future for squash on the continent by developing local coaches and players."
+        />
+        <GoalCard
+          content=" Empowering young people through the sport of squash, promoting physical and mental well-being."
+        />
+        <GoalCard
+          content="  Partnering with local organizations and communities to promote and develop squash in Africa."
+        />
+        <GoalCard
+          content=" Encouraging the growth of squash in Africa by providing opportunities for young players to   showcase their skills."
+        />
+        <GoalCard
+          content="  Raising awareness of squash in Africa and encouraging greater participation in the sport among   young people."
+        />
+        <GoalCard
+          content=" Promoting the African Diaspora in the sport of squash."
+        />
+        <GoalCard
+          content=" Developing a strong and vibrant squash community that positively impacts the lives of young   people."
+        />
+        <GoalCard
+          content=" Creating opportunities for personal development and success through the sport of squash."
+        />
       </div>
     </div>
   </div>
+  <!-- Faq-wrapper -->
   <div class="bg-[#8a2be2] text-white p-16">
     <div class="mx-auto container flex gap-24 max-w-7xl">
       <div>
@@ -140,7 +172,7 @@ import ChevronDownIcon from "vue-material-design-icons/ChevronDown.vue";
         </div>
         <div>
           <div class="p-2 bg-[#9f4bec] flex items-center justify-between">
-            <h3 class="text-xl font-bold">Do you offer guest passes?</h3>
+            <h3 class="text-xl font-bold">Are children allowed entry?</h3>
             <ChevronDownIcon size="32" />
           </div>
 
