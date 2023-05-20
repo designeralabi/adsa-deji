@@ -35,7 +35,7 @@ body {
 }
 
 .router-link-active {
-  background-color: blueviolet;
+  background-color: #8a2be2;
   border-radius: 9999px;
   padding: 0 32px;
   height: 48px;

@@ -1,3 +1,8 @@
+<script setup>
+import ChevronRightIcon from "vue-material-design-icons/ChevronRight.vue";
+import ChevronDownIcon from "vue-material-design-icons/ChevronDown.vue";
+// import PlusIcon from "vue-material-design-icons/Plus.vue";
+</script>
 <template>
   <div class="container mx-auto max-w-7xl">
     <h3
@@ -90,10 +95,14 @@
         h
       </div>
     </div>
-    <div>
+  </div>
+  <div class="bg-[#8a2be2] text-white p-16">
+    <div class="mx-auto container flex gap-24 max-w-7xl">
       <div>
-        <h3>what you should know</h3>
-        <p>
+        <h3 class="text-5xl font-bold">
+          what you should <span class="text-yellow-300">know</span>
+        </h3>
+        <p class="my-8">
           Got questions? We’ve got answers. Learn all about our facility and why
           we’re the right one for you. We have collected some of the most
           frequently asked questions that we receive below. We’ve tried to
@@ -102,10 +111,14 @@
         </p>
       </div>
       <!-- faq -->
-      <div>
+      <div class="">
         <div>
-          <h3>Do you offer a trial membership?</h3>
-          <P>
+          <div class="p-2 bg-[#9f4bec] flex items-center justify-between">
+            <h3 class="text-xl font-bold">Do you offer a trial membership?</h3>
+            <ChevronRightIcon size="32" />
+          </div>
+
+          <P class="p-3">
             Enter your answer here. Be thoughtful, write clearly and concisely,
             and consider adding written as well as visual examples. Go over what
             you’ve written to make sure that if it was the first time you were
@@ -113,8 +126,12 @@
           >
         </div>
         <div>
-          <h3>Do you offer guest passes?</h3>
-          <P>
+          <div class="p-2 bg-[#9f4bec] flex items-center justify-between">
+            <h3 class="text-xl font-bold">Do you offer guest passes?</h3>
+            <ChevronDownIcon size="32" />
+          </div>
+
+          <P class="p-3">
             Enter your answer here. Be thoughtful, write clearly and concisely,
             and consider adding written as well as visual examples. Go over what
             you’ve written to make sure that if it was the first time you were
@@ -122,8 +139,12 @@
           >
         </div>
         <div>
-          <h3>Do you offer guest passes?</h3>
-          <P>
+          <div class="p-2 bg-[#9f4bec] flex items-center justify-between">
+            <h3 class="text-xl font-bold">Do you offer guest passes?</h3>
+            <ChevronDownIcon size="32" />
+          </div>
+
+          <P class="p-3">
             Enter your answer here. Be thoughtful, write clearly and concisely,
             and consider adding written as well as visual examples. Go over what
             you’ve written to make sure that if it was the first time you were
