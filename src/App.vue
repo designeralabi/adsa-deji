@@ -15,7 +15,7 @@ import Footer from "./components/footer.vue";
         height="80"
         alt="rugby_logo"
       />
-      <MenuIcon size="32" class="cursor-pointer" @click="show" />
+      <MenuIcon size="32" class="cursor-pointer lg:hidden" @click="show" />
 
       <nav
         class="lg:flex items-center justify-between capitalize space-x-16 text-lg hidden"

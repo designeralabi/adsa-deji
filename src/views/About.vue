@@ -9,7 +9,7 @@ import GoalCard from "../components/goalCard.vue";
       class="lg:text-5xl text-3xl my-24 leading-normal flex items-center justify-center font-bold"
     >
       <span class="w-full lg:w-8/12 block text-center">
-        Providing access to Entertainment services for all Africans disapora
+        About African Diaspora Squash Association (ADSA)
       </span>
     </h3>
     <div class="flex flex-col lg:flex-row items-center gap-8 lg:mt-40">
