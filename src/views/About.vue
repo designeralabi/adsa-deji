@@ -6,14 +6,14 @@ import GoalCard from "../components/goalCard.vue";
 <template>
   <div class="container mx-auto max-w-7xl">
     <h3
-      class="text-5xl my-24 leading-normal flex items-center justify-center font-bold"
+      class="lg:text-5xl text-3xl my-24 leading-normal flex items-center justify-center font-bold"
     >
-      <span class="w-8/12 block text-center">
+      <span class="w-full lg:w-8/12 block text-center">
         Providing access to Entertainment services for all Africans disapora
       </span>
     </h3>
-    <div class="flex items-center gap-8 mt-40">
-      <div class="w-72 h-72 -translate-y-32">
+    <div class="flex flex-col lg:flex-row items-center gap-8 lg:mt-40">
+      <div class="w-72 h-72 lg:-translate-y-32">
         <img
           src="../assets//images/adsa_1.jpeg"
           alt="adsa_1"
@@ -31,7 +31,7 @@ import GoalCard from "../components/goalCard.vue";
           class="rounded-3xl h-full w-full object-cover"
         />
       </div>
-      <div class="w-[400px] h-96">
+      <div class="w-72 lg:w-[400px] h-96">
         <img
           src="../assets//images/adsa_3.jpg"
           alt="adsa_1"
@@ -40,7 +40,7 @@ import GoalCard from "../components/goalCard.vue";
           class="rounded-3xl h-full w-full object-cover"
         />
       </div>
-      <div class="w-52 h-64 -translate-y-32">
+      <div class="w-72 lg:w-52 h-64 lg:-translate-y-32">
         <img
           src="../assets//images/adsa_4.jpg"
           alt="adsa_1"
@@ -60,11 +60,13 @@ import GoalCard from "../components/goalCard.vue";
       </div>
     </div>
 
-    <div class="py-20 flex flex-col lg:flex-row justify-between gap-16 items-center mt-20">
+    <div
+      class="py-20 px-6 lg:px-0 flex flex-col lg:flex-row justify-between gap-8 lg:gap-16 items-center mt-20"
+    >
       <!-- mission -->
-      <div class="bg-[#747bff] p-8 rounded-2xl">
+      <div class="bg-[#747bff] p-6 lg:p-8 rounded-2xl">
         <h2 class="text-white text-3xl font-bold">Our Mission</h2>
-        <p class="text-white my-8 text-xl leading-normal">
+        <p class="text-white my-8 text-base lg:text-lg leading-normal">
           Our mission is to provide a positive and inclusive environment for
           squash players of African descent in America, while also giving back
           to the youth in Africa through the sport. We aim to develop and
@@ -76,9 +78,9 @@ import GoalCard from "../components/goalCard.vue";
         </p>
       </div>
       <!-- vision -->
-      <div class="bg-[#ff4040] p-8 rounded-2xl">
+      <div class="bg-[#ff4040] p-6 lg:p-8 rounded-2xl">
         <h2 class="text-white text-3xl font-bold">Our Vision</h2>
-        <p class="text-white my-8 text-xl leading-normal">
+        <p class="text-white my-8 text-base lg:text-lg leading-normal">
           Our vision is to create a community of passionate squash players in
           America that celebrates and promotes the diversity of the African
           diaspora through the sport. We strive to empower and inspire
@@ -93,7 +95,7 @@ import GoalCard from "../components/goalCard.vue";
       <h2 class="text-5xl font-bold mb-20 flex items-center justify-center">
         Our Goals
       </h2>
-      <div class="grid grid-cols-5 gap-6">
+      <div class="grid grid-cols-1 place-items-center lg:grid-cols-5 gap-6">
         <GoalCard
           content="Providing access to squash equipment and training for young people in underprivileged communities."
         />
@@ -128,7 +130,7 @@ import GoalCard from "../components/goalCard.vue";
     </div>
   </div>
   <!-- Faq-wrapper -->
-  <div class="bg-[#8a2be2] text-white p-16">
+  <!-- <div class="bg-[#8a2be2] text-white p-16">
     <div class="mx-auto container flex gap-24 max-w-7xl">
       <div>
         <h3 class="text-5xl font-bold">
@@ -142,7 +144,7 @@ import GoalCard from "../components/goalCard.vue";
           please reach out and a member of our staff will get in touch with you!
         </p>
       </div>
-      <!-- faq -->
+
       <div class="">
         <div>
           <div class="p-2 bg-[#9f4bec] flex items-center justify-between">
@@ -185,5 +187,5 @@ import GoalCard from "../components/goalCard.vue";
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 </template>

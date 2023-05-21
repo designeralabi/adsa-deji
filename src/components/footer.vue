@@ -58,7 +58,7 @@ import { RouterLink, RouterView } from "vue-router";
       >
         <p>© 2023 SQUASHTV. All Rights Reserved.</p>
         <div class="space-x-8 lg:flex items-center hidden">
-          <p>Privacyaa Policy</p>
+          <p>Privacy Policy</p>
         </div>
       </div>
     </div>
