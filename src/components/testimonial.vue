@@ -5,12 +5,19 @@ import Card from "./card.vue";
 <template>
   <div class="bg-[#f5f6f7] pt-5 pb-24">
     <div class="max-w-7xl mx-auto container px-7 lg:px-0">
-      <h2
-        class="text-3xl text-center lg:text-5xl font-bold flex item-center justify-center my-16"
-      >
-        Trusted by over 2 million diaspora
-      </h2>
-      <h3></h3>
+      <div class="my-16">
+        <h2
+          class="text-3xl text-center lg:text-5xl font-bold flex item-center justify-center my-8"
+        >
+          Testimonials
+        </h2>
+        <h3
+          class="flex items-center justify-center text-xl font-semibold my-6 tracking-wider"
+        >
+          Hear What Others Have to Say
+        </h3>
+      </div>
+
       <div
         class="flex flex-col lg:flex-row items-center space-y-7 lg:space-y-0 lg:space-x-7"
       >

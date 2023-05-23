@@ -15,7 +15,7 @@ import GoalCard from "../components/goalCard.vue";
     <div class="flex flex-col lg:flex-row items-center gap-8 lg:mt-40">
       <div class="w-72 h-72 lg:-translate-y-32">
         <img
-          src="../assets//images/adsa_1.jpeg"
+          src="../assets/images/adsa_1.jpeg"
           alt="adsa_1"
           height="150"
           width="150"
@@ -24,7 +24,7 @@ import GoalCard from "../components/goalCard.vue";
       </div>
       <div class="w-72 h-96">
         <img
-          src="../assets//images/adsa_2.jpg"
+          src="../assets/images/adsa_2.jpg"
           alt="adsa_1"
           height="150"
           width="150"
@@ -33,7 +33,7 @@ import GoalCard from "../components/goalCard.vue";
       </div>
       <div class="w-72 lg:w-[400px] h-96">
         <img
-          src="../assets//images/adsa_3.jpg"
+          src="../assets/images/adsa_3.jpg"
           alt="adsa_1"
           height="150"
           width="150"
@@ -42,7 +42,7 @@ import GoalCard from "../components/goalCard.vue";
       </div>
       <div class="w-72 lg:w-52 h-64 lg:-translate-y-32">
         <img
-          src="../assets//images/adsa_4.jpg"
+          src="../assets/images/adsa_4.jpg"
           alt="adsa_1"
           height="150"
           width="150"
@@ -51,7 +51,7 @@ import GoalCard from "../components/goalCard.vue";
       </div>
       <div class="w-72 h-96">
         <img
-          src="../assets//images/adsa_5.jpg"
+          src="../assets/images/adsa_5.jpg"
           alt="adsa_1"
           height="150"
           width="150"

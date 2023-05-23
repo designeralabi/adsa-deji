@@ -3,7 +3,7 @@
     <h1 class="text-5xl font-bold flex items-center justify-center mt-24">
       Gallery page
     </h1>
-    <div class="flex my-32 gap-2">
+    <div class="flex flex-col lg: flex-row my-32 gap-2">
       <div class="w-72 h-96">
         <img
           src="../assets/images/adsa_11.jpeg"
