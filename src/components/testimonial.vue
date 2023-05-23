@@ -3,7 +3,7 @@ import Card from "./card.vue";
 </script>
 
 <template>
-  <div class="bg-[#f5f6f7] pt-5 pb-24">
+  <div class="bg-[#f5f6f7] pt-12 pb-24">
     <div class="max-w-7xl mx-auto container px-7 lg:px-0">
       <div class="my-16">
         <h2
