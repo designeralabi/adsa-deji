@@ -1,8 +1,6 @@
 <template>
   <div class="container mx-auto max-w-7xl py-16">
-    <h2
-      class="text-5xl flex items-center justify-center mb-12 text-[#8a2be2] font-bold"
-    >
+    <h2 class="text-5xl flex items-center justify-center mb-12 font-bold">
       Upcoming Events
     </h2>
     <div class="flex items-center justify-between">

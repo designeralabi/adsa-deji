@@ -13,5 +13,5 @@ import Upcoming from "../components/upcoming.vue";
   <Sponsor />
   <Testimonial />
   <PastEvent />
-   <Upcoming />
+  <Upcoming />
 </template>

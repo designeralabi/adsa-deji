@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import { RouterLink, RouterView } from "vue-router";
+</script>
 
 <template>
   <div class="flex bg-[#6e58e2] items-center px-6 lg:px-0">
@@ -25,7 +27,9 @@
         <button
           class="border-2 bg-[#ff4040] border-none text-white px-8 py-3 capitalize outline-none hover:bg-[#d90000] font-bold rounded-md mt-11"
         >
-          view Gallery
+          <RouterLink to="/gallery" class="text-white">
+            view Gallery</RouterLink
+          >
         </button>
       </div>
     </div>
