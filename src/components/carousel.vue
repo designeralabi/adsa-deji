@@ -1,5 +1,5 @@
 <template>
-  <div class="flex overflow-scroll gap-2">
+  <div class="flex flex-col lg:flex-row flex-wrap overflow-scroll gap-2">
     <div class="w-[520px] h-80 bg-red-300">
       <img
         src="../assets/images/adsa_1.jpeg"
