@@ -24,10 +24,10 @@ import ButtonVue from "./button.vue";
       <ButtonVue class="my-10 lg:mb-0 lg:mt-10" />
     </div>
     <div
-      class="flex items-center justify-center lg:w-[350px] w-full lg:h-[500px]"
+      class="flex items-center justify-center lg:w-[550px] w-full lg:h-[500px]"
     >
       <img
-        src="../assets/images/adsa_2.jpg"
+        src="../assets/images/adsa_12.jpeg"
         alt="adsa_2"
         height="500"
         width="400"
