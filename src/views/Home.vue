@@ -10,8 +10,8 @@ import Upcoming from "../components/upcoming.vue";
 <template>
   <Hero />
   <Carousel />
-  <Sponsor />
-  <Testimonial />
+  <!-- <Sponsor /> -->
+  <!-- <Testimonial /> -->
   <PastEvent />
   <Upcoming />
 </template>
