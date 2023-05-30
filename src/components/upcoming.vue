@@ -1,3 +1,11 @@
+<script setup>
+import Form from "../components/form.vue";
+
+const showForm = () => {
+  console.log("you clicked rsvp btn");
+};
+</script>
+
 <template>
   <div class="container mx-auto max-w-7xl py-16">
     <h2 class="text-5xl flex items-center justify-center mb-12 font-bold">
@@ -9,15 +17,14 @@
         <h2 class="text-4xl font-bold">Summer 2023 Tournament</h2>
         <h3>Save The Date!</h3>
         <div class="my-5">
-          <h3 class="font-semibold">
-            28th-29th July, 202328th-29th July, 2023
-          </h3>
+          <h3 class="font-semibold">28th-29th July, 2023</h3>
           <h3 class="font-semibold">
             9315 Snowden River Parkway, Columbia Maryland 21046
           </h3>
         </div>
         <button
           class="border-2 bg-transparent border-[#ff4040] hover:text-white px-16 py-3 uppercase outline-none hover:bg-[#d90000] font-bold rounded-md mt-11"
+          @click="showForm"
         >
           Rsvp
         </button>
@@ -33,5 +40,7 @@
         />
       </div>
     </div>
+
+    <Form />
   </div>
 </template>

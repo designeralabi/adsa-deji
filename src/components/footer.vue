@@ -6,33 +6,34 @@ import { RouterLink, RouterView } from "vue-router";
     <div class="container mx-auto max-w-7xl px-6 lg:px-0">
       <div class="flex flex-col lg:flex-row justify-between">
         <div>
-          <h3 class="text-gray-500 font-bold text-xl">Get in touch</h3>
-          <div class="font-semibold mt-4">
+          <h3 class="text-gray-500 font-bold text-xl">Contact us</h3>
+          <div class="font-semibold mt-4 space-y-3">
+            <h3>9315 Snowden river parkway Columbia Maryland 21046</h3>
             <h4>info@adsasquash.org</h4>
             <h4>+1 (443) 538-0247</h4>
           </div>
         </div>
-        <div>
+        <!-- <div>
           <h3 class="text-gray-500 font-bold text-xl">connect</h3>
           <div class="flex flex-col font-semibold mt-4">
             <a href="#" class="text-white">LinkedIn</a>
             <a href="#" class="text-white">Instagram</a>
           </div>
-        </div>
-        <div>
+        </div> -->
+        <!-- <div>
           <h3 class="text-gray-500 font-bold text-xl">connect</h3>
           <div class="flex flex-col font-semibold mt-4">
             <a href="#" class="text-white">LinkedIn</a>
             <a href="#" class="text-white">Instagram</a>
           </div>
-        </div>
-        <div>
+        </div> -->
+        <!-- <div>
           <h3 class="text-gray-500 font-bold text-xl">connect</h3>
           <div class="flex flex-col font-semibold mt-4">
             <a href="#" class="text-white">LinkedIn</a>
             <a href="#" class="text-white">Instagram</a>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <nav
@@ -56,7 +57,9 @@ import { RouterLink, RouterView } from "vue-router";
       <div
         class="bg-[rgba(13, 25, 57, 1)] flex justify-between items-center mt-8"
       >
-        <p>©ADSA 2023. All Rights Reserved.</p>
+        <p>
+          ©ADSA 2023. African Diaspora Squash Association All Rights Reserved.
+        </p>
         <div class="space-x-8 lg:flex items-center hidden">
           <p>Privacy Policy</p>
         </div>

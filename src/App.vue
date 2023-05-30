@@ -24,11 +24,12 @@ import Footer from "./components/footer.vue";
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/gallery">gallery</RouterLink>
       </nav>
-      <button
+      <!-- donate button -->
+      <!-- <button
         class="border-2 bg-[#ff4040] border-none text-white px-8 py-2 capitalize outline-none hover:bg-[#d90000] font-bold rounded-md hidden lg:block"
       >
         donate
-      </button>
+      </button> -->
     </div>
   </header>
 
