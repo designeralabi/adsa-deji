@@ -1,41 +1,8 @@
-<script setup>
-import { ref } from "vue";
-import CloseIcon from "vue-material-design-icons/Close.vue";
+<!-- <script>
 import emailjs from "@emailjs/browser";
 
-const formVal = ref({
-  first_name: "",
-  last_name: "",
-  email: "",
-  num: "",
-  message: "",
-});
-
-function sendEmail() {
-  emailjs
-    .sendForm(
-      "service_aq9s41h",
-      "template_a1quf0r",
-      this.$ref.formVal,
-      "soaxGlokqKI6-igPc"
-    )
-    .then(
-      (result) => {
-        console.log("SUCCESS!", result.text);
-      },
-      (error) => {
-        console.log("FAILED...", error.text);
-      }
-    );
-  formVal({
-    first_name: "",
-    last_name: "",
-    email: "",
-    num: "",
-    message: "",
-  });
-}
 </script>
+
 
 <template>
   <div
@@ -43,8 +10,8 @@ function sendEmail() {
   >
     <form
       class="bg-white py-12 px-8 w-[600px] relative"
-      ref="formVal"
       @submit.prevent="sendEmail"
+     
     >
       <CloseIcon
         class="absolute hover:rotate-90 hover:ease-in-out transition-transform cursor-pointer top-4 right-7"
@@ -61,6 +28,7 @@ function sendEmail() {
             placeholder="firstName"
             required
             name="first_name"
+            v-model="first_name"
           />
         </div>
         <div class="flex flex-col my-2 w-full">
@@ -71,6 +39,7 @@ function sendEmail() {
             placeholder="lastName"
             required
             name="last_name"
+            v-model="last_name"
           />
         </div>
       </div>
@@ -84,6 +53,7 @@ function sendEmail() {
             class="bg-transparent outline-none border p-3 w-full"
             required
             name="user_email"
+            v-model="user_email"
           />
         </div>
         <div class="flex flex-col my-2 w-full">
@@ -93,12 +63,14 @@ function sendEmail() {
             placeholder="phoneNumber"
             class="bg-transparent border outline-none p-3 w-full"
             name="user_number"
+            v-model="user_number"
           />
         </div>
       </div>
       <textarea
         name="message"
         class="w-full outline-none p-3 border mt-8 h-40"
+        v-model="message"
       ></textarea>
 
       <button
@@ -110,4 +82,8 @@ function sendEmail() {
       </button>
     </form>
   </div>
+</template> -->
+
+<template>
+  <div>hsuibfuib</div>
 </template>
