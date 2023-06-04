@@ -56,11 +56,18 @@
         </div>
       </div>
 
-      <div class="flex flex-col gap-y-4 mt-8">
+      <div class="flex flex-col gap-y-2 mt-8">
         <Label for="attendance">Are you going to attend?</Label>
-        <div class="flex items-center justify-between">
-          <button type="button" class="bg-green-600 py-4 px-6 rounded-md text-white outline-none font-medium" @click="setGoing('going to attend')">I am going to attend</button>
-          <button type="button" class="bg-red-600 py-4 px-6 rounded-md text-white outline-none font-medium" @click="setGoing('not going to attend')">I am not going to attend</button>
+        <div class="flex items-center gap-4">
+          <label>
+            <input name="attendance" required type="radio" v-model="attendance" value="will attend">
+            Will attend
+          </label>
+
+          <label>
+            <input name="attendance" required type="radio" v-model="attendance" value="will not attend">
+            Will not attend
+          </label>
         </div>
       </div>
 
@@ -87,7 +94,7 @@ export default {
       user_email: '',
       user_number: '',
       message: "",
-      isGoing: ""
+      attendance: ""
     };
   },
   props: {
@@ -105,7 +112,7 @@ export default {
           this.user_email.trim() !== '' &&
           this.user_number.trim() !== '' &&
           this.message.trim() !== '' &&
-          this.isGoing.trim() !== ''
+          this.attendance.trim() !== ''
       );
     }
   },
@@ -118,12 +125,12 @@ export default {
           from_name: this.first_name + ' ' + this.last_name,
           contact_email: this.user_email,
           contact_phone: this.user_number,
-          to_name: "ADSASquash",
+          to_name: "ADSA",
           message: `
         Email: ${this.user_email},
         Phonenumber: ${this.user_number}
 
-        Mr/Mrs ${this.first_name + ' ' + this.last_name} ${this.isGoing} the ADSASquash RSVP`
+        Mr/Mrs ${this.first_name + ' ' + this.last_name} ${this.attendance} the ADSASquash RSVP`
         }, "GMbZBdJQAsJUrwDRC").then((res)=> {
           console.log(res)
           this.closeModal()
