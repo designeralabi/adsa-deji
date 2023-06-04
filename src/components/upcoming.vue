@@ -1,9 +1,19 @@
 <script setup>
 import Form from "../components/form.vue";
+import {ref} from "vue";
+
+const openForm = ref(false)
 
 const showForm = () => {
-  console.log("you clicked rsvp btn");
+  openForm.value = true
+  console.log(openForm.value)
 };
+
+const closeForm= () => {
+  openForm.value = false
+  console.log(openForm.value)
+}
+
 </script>
 
 <template>
@@ -41,6 +51,8 @@ const showForm = () => {
       </div>
     </div>
 
-    <!-- <Form /> -->
+    <div v-if="openForm">
+     <Form @closeModal="closeForm"/>
+    </div>
   </div>
 </template>
