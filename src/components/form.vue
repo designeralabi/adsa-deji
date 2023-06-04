@@ -83,7 +83,6 @@
 </template>
 
 <script>
-import { loadScript } from "vue-plugin-load-script";
 import emailjs from "@emailjs/browser"
 
 export default {
@@ -130,7 +129,7 @@ export default {
         Email: ${this.user_email},
         Phonenumber: ${this.user_number}
 
-        Mr/Mrs ${this.first_name + ' ' + this.last_name} ${this.attendance} the ADSASquash RSVP`
+        Mr/Mrs ${this.first_name + ' ' + this.last_name} ${this.attendance} the event`
         }, "GMbZBdJQAsJUrwDRC").then((res)=> {
           console.log(res)
           this.closeModal()
