@@ -28,6 +28,7 @@ const closeForm= () => {
         <h3>Save The Date!</h3>
         <div class="my-5">
           <h3 class="font-semibold">28th-30th July, 2023</h3>
+          <h3 class="font-semibold">Columbia Squash & Athletic Club</h3>
           <h3 class="font-semibold">
             9315 Snowden River Parkway, Columbia Maryland 21046
           </h3>

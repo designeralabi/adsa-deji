@@ -76,6 +76,33 @@
           class="rounded-xl h-full w-full object-cover"
         />
       </div>
+      <div class="w-1/3 h-96">
+        <img
+            src="../assets/images/20230325_121709.jpg"
+            alt="adsa_11"
+            height="150"
+            width="150"
+            class="rounded-xl h-full w-full object-cover"
+        />
+      </div>
+
+      <div class="w-1/2 h-96">
+        <video controls>
+          <source :src="videoSource" type='video/mp4'/>
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      videoSource: '../assets/videos/video.mp4'
+    };
+  }
+};
+</script>

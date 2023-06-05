@@ -56,7 +56,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col gap-y-2 mt-8">
+      <div class="flex flex-col gap-y-2 mt-6">
         <Label for="attendance">Are you going to attend?</Label>
         <div class="flex items-center gap-4">
           <label>
@@ -69,6 +69,11 @@
             Will not attend
           </label>
         </div>
+      </div>
+
+      <div class="flex flex-col gap-y-2 mt-6">
+        <label for="comments">Comments</label>
+        <textarea name="comments" rows="8" cols="15" v-model="comments" class="bg-transparent border outline-none p-3 w-full"/>
       </div>
 
       <button
@@ -93,7 +98,8 @@ export default {
       user_email: '',
       user_number: '',
       message: "",
-      attendance: ""
+      attendance: "",
+      comments: ""
     };
   },
   props: {
@@ -103,21 +109,19 @@ export default {
     },
   },
 
-  computed: {
-    isFormValid() {
-      return (
-          this.first_name.trim() !== '' &&
-          this.last_name.trim() !== '' &&
-          this.user_email.trim() !== '' &&
-          this.user_number.trim() !== '' &&
-          this.message.trim() !== '' &&
-          this.attendance.trim() !== ''
-      );
-    }
-  },
+  // computed: {
+  //   isFormValid() {
+  //     return (
+  //         this.first_name.trim() !== '' &&
+  //         this.last_name.trim() !== '' &&
+  //         this.user_email.trim() !== '' &&
+  //         this.user_number.trim() !== '' &&
+  //         this.message.trim() !== '' &&
+  //         this.attendance.trim() !== ''
+  //     );
+  //   }
+  // },
 
-  // going to attend
-// not going to attend
   methods: {
     sendEmail() {
         emailjs.send("service_umhdt8c", "template_7js1kjb", {
@@ -129,7 +133,10 @@ export default {
         Email: ${this.user_email},
         Phonenumber: ${this.user_number}
 
-        Mr/Mrs ${this.first_name + ' ' + this.last_name} ${this.attendance} the event`
+        Mr/Mrs ${this.first_name + ' ' + this.last_name} ${this.attendance} the event.
+
+        ${this.comments}
+        `
         }, "GMbZBdJQAsJUrwDRC").then((res)=> {
           console.log(res)
           this.closeModal()
