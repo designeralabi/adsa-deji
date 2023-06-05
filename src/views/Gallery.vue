@@ -101,7 +101,7 @@
 export default {
   data() {
     return {
-      videoSource: '../assets/videos/video.mp4'
+      videoSource: 'https://res.cloudinary.com/senninseyi/video/upload/v1685990688/adsa/video_gkc0du.mp4'
     };
   }
 };
