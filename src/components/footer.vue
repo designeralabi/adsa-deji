@@ -13,33 +13,14 @@ import { RouterLink, RouterView } from "vue-router";
             <h4>+1 (443) 538-0247</h4>
           </div>
         </div>
-        <!-- <div>
-          <h3 class="text-gray-500 font-bold text-xl">connect</h3>
-          <div class="flex flex-col font-semibold mt-4">
-            <a href="#" class="text-white">LinkedIn</a>
-            <a href="#" class="text-white">Instagram</a>
-          </div>
-        </div> -->
-        <!-- <div>
-          <h3 class="text-gray-500 font-bold text-xl">connect</h3>
-          <div class="flex flex-col font-semibold mt-4">
-            <a href="#" class="text-white">LinkedIn</a>
-            <a href="#" class="text-white">Instagram</a>
-          </div>
-        </div> -->
-        <!-- <div>
-          <h3 class="text-gray-500 font-bold text-xl">connect</h3>
-          <div class="flex flex-col font-semibold mt-4">
-            <a href="#" class="text-white">LinkedIn</a>
-            <a href="#" class="text-white">Instagram</a>
-          </div>
-        </div> -->
       </div>
 
       <nav
         class="lg:grid grid-cols-3 capitalize text-lg bg-white rounded-full p-2 w-[400px] mx-auto my-12 hidden"
       >
-        <RouterLink to="/" class="px-8 h-12 flex items-center justify-center"
+        <RouterLink
+          to="/"
+          class="px-8 h-12 flex items-center justify-center"
           >Home</RouterLink
         >
         <RouterLink

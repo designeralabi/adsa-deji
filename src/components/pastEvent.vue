@@ -3,20 +3,25 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-  <div class="flex bg-[#6e58e2] items-center px-6 lg:px-0">
-    <div class="justify-between flex mx-auto container max-w-7xl">
-      <div class="w-[1800px] bg-red-400">
+  <div class="flex bg-[#6e58e2] items-center">
+    <!-- pastEvent container -->
+    <div
+      class="justify-between flex sm:px-16 flex-col mx-auto container max-w-7xl"
+    >
+      <div class="w-[100%]">
         <img
           src="../assets/images/adsa_19.jpeg"
           alt="adsa_team_19"
           class="h-full object-cover w-full"
           height="300"
-          width="700"
+          width="300"
         />
       </div>
       <!-- content -->
-      <div class="text-white p-16 flex items-start justify-center flex-col">
-        <h3 class="text-4xl mb-10 font-bold">
+      <div
+        class="text-white px-6 sm:px-0 pb-12 flex items-start justify-center flex-col"
+      >
+        <h3 class="text-2xl my-8 font-bold">
           Squash Summer Retreat 2022 Maryland, USA
         </h3>
         <p>
@@ -25,9 +30,12 @@ import { RouterLink, RouterView } from "vue-router";
           and interact. Check out our latest updates and stay in the loop.
         </p>
         <button
-          class="border-2 bg-[#ff4040] border-none text-white px-8 py-3 capitalize outline-none hover:bg-[#d90000] font-bold rounded-md mt-11"
+          class="border-2 bg-red-500 border-none text-white px-8 py-3 capitalize outline-none hover:bg-red-700 font-bold rounded-md mt-11"
         >
-          <RouterLink to="/gallery" class="text-white">
+          <RouterLink
+            to="/gallery"
+            class="text-white"
+          >
             view Gallery</RouterLink
           >
         </button>

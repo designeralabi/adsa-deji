@@ -1,7 +1,3 @@
-<script setup>
-import ButtonVue from "./button.vue";
-</script>
-
 <template>
   <div
     class="mx-auto container max-w-7xl flex items-center flex-col lg:flex-row h-screen px-6 py-24 lg:p-0 justify-between"
@@ -21,7 +17,6 @@ import ButtonVue from "./button.vue";
         of volunteers who are passionate about the sport and the impact it can
         have on young people's lives.
       </p>
-      <!-- <ButtonVue class="my-10 lg:mb-0 lg:mt-10" /> -->
     </div>
     <div
       class="flex items-center justify-center lg:w-[600px] w-full lg:h-[500px]"
