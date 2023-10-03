@@ -22,7 +22,7 @@ const closeForm = () => {
     >
       Upcoming Events
     </h2>
-    <div class="flex flex-col-reverse px-8">
+    <div class="flex lg:flex-row lg:items-center lg:gap-x-8 flex-col-reverse px-6 sm:px-16">
       <!-- section_1 -->
       <div class="py-8">
         <h2 class="text-3xl font-bold">Summer 2023 Tournament</h2>
@@ -42,13 +42,13 @@ const closeForm = () => {
         </button>
       </div>
       <!-- section_2 -->
-      <div class="w-full">
+      <div class="w-full lg:w-3/5">
         <img
           src="../assets/images/adsa_E-flyer.jpg"
           alt="adsa_eflyer"
           class="h-full object-cover w-full"
           height="300"
-          width="350"
+          width="300"
         />
       </div>
     </div>

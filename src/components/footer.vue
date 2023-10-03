@@ -3,7 +3,7 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 <template>
   <div class="bg-black text-white py-24">
-    <div class="container mx-auto max-w-7xl px-6 lg:px-0">
+    <div class="container mx-auto max-w-7xl px-6 sm:px-16">
       <div class="flex flex-col lg:flex-row justify-between">
         <div>
           <h3 class="text-gray-500 font-bold text-xl">Contact us</h3>
@@ -38,7 +38,7 @@ import { RouterLink, RouterView } from "vue-router";
       <div
         class="bg-[rgba(13, 25, 57, 1)] flex justify-between items-center mt-8"
       >
-        <p>
+        <p class="text-sm">
           ©ADSA 2023. African Diaspora Squash Association All Rights Reserved.
         </p>
         <div class="space-x-8 lg:flex items-center hidden">

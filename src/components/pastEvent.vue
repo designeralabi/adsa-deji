@@ -6,9 +6,9 @@ import { RouterLink, RouterView } from "vue-router";
   <div class="flex bg-[#6e58e2] items-center">
     <!-- pastEvent container -->
     <div
-      class="justify-between flex sm:px-16 flex-col mx-auto container max-w-7xl"
+      class="justify-between flex lg:flex-row lg:gap-x-8 sm:px-16 flex-col mx-auto container max-w-7xl"
     >
-      <div class="w-[100%]">
+      <div class="w-full">
         <img
           src="../assets/images/adsa_19.jpeg"
           alt="adsa_team_19"
