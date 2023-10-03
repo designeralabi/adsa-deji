@@ -6,7 +6,7 @@ import GoalCard from "../components/goalCard.vue";
 <template>
   <div class="container mx-auto max-w-7xl">
     <h3
-      class="lg:text-5xl text-3xl my-24 leading-normal flex items-center justify-center font-bold"
+      class="lg:text-5xl text-2xl px-6 my-24 leading-normal flex items-center justify-center font-bold"
     >
       <span class="w-full lg:w-8/12 block text-center">
         About African Diaspora Squash Association (ADSA)
@@ -91,8 +91,10 @@ import GoalCard from "../components/goalCard.vue";
     </div>
 
     <!-- goals -->
-    <div class="py-32">
-      <h2 class="text-5xl font-bold mb-20 flex items-center justify-center">
+    <div class="lg:py-32">
+      <h2
+        class="text-3xl lg:text-5xl font-bold mb-20 flex items-center justify-center"
+      >
         Our Goals
       </h2>
       <div class="grid grid-cols-1 place-items-center lg:grid-cols-5 gap-6">
