@@ -7,13 +7,7 @@ import Footer from "./components/footer.vue";
 import { ref } from "vue";
 const openMenu = ref(false);
 const showMenu = () => {
-  // openMenu.value = true;
   openMenu.value = !openMenu.value;
-  console.log(openMenu.value);
-};
-const closeMenu = () => {
-  openMenu.value = !openMenu.value;
-  console.log(openMenu.value);
 };
 
 const navLinks = ref([
@@ -44,7 +38,7 @@ const navLinks = ref([
         alt="rugby_logo"
       />
 
-      <div class="z-50">
+      <div class="z-50 lg:hidden">
         <CgClose
           v-if="openMenu"
           @click="showMenu"
@@ -60,6 +54,17 @@ const navLinks = ref([
       <nav
         v-show="openMenu"
         class="flex-col fixed top-0 bg-white h-[45%] left-0 right-0 flex items-center capitalize text-lg pt-24 space-y-5 ease-in-out transition-all"
+      >
+        <RouterLink
+          v-for="navlink in navLinks"
+          :to="navlink.url"
+          class="hover:bg-purple-600 hover:text-white rounded-full flex items-center justify-center h-12 px-8"
+          >{{ navlink.title }}</RouterLink
+        >
+      </nav>
+      <!-- large screen -->
+      <nav
+        class="bg-white h-[45%] hidden lg:flex items-center capitalize text-lg ease-in-out transition-all"
       >
         <RouterLink
           v-for="navlink in navLinks"

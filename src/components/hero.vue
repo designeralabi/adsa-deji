@@ -8,7 +8,7 @@
       >
         The African Diaspora Squash Association
       </h1>
-      <p class="my-4">
+      <p class="my-4 lg:pr-12">
         The African Diaspora Squash Association (ADSA Squash) is a non-profit
         organization committed to the development and promotion of squash
         amongst young people in Africa. Our mission is to provide access to the
