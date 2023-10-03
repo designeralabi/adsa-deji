@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mx-auto container max-w-7xl flex items-center flex-col lg:flex-row h-screen px-6 py-24 lg:p-0 justify-between"
+    class="mx-auto container max-w-7xl flex items-center flex-col lg:flex-row h-screen px-6 py-24 lg:px-16 justify-between lg:gap-x-6"
   >
     <div class="w-full lg:w-[600px]">
       <h1
@@ -19,7 +19,7 @@
       </p>
     </div>
     <div
-      class="flex items-center justify-center lg:w-[600px] w-full lg:h-[500px]"
+      class="flex items-center justify-center lg:w-[600px] w-full lg:h-[370px]"
     >
       <img
         src="../assets/images/adsa_17.jpeg"
