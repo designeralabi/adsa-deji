@@ -108,20 +108,6 @@ export default {
       required: true,
     },
   },
-
-  // computed: {
-  //   isFormValid() {
-  //     return (
-  //         this.first_name.trim() !== '' &&
-  //         this.last_name.trim() !== '' &&
-  //         this.user_email.trim() !== '' &&
-  //         this.user_number.trim() !== '' &&
-  //         this.message.trim() !== '' &&
-  //         this.attendance.trim() !== ''
-  //     );
-  //   }
-  // },
-
   methods: {
     sendEmail() {
         emailjs.send("service_umhdt8c", "template_7js1kjb", {

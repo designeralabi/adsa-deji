@@ -6,12 +6,10 @@ const openForm = ref(false);
 
 const showForm = () => {
   openForm.value = true;
-  console.log(openForm.value);
 };
 
 const closeForm = () => {
   openForm.value = false;
-  console.log(openForm.value);
 };
 </script>
 
@@ -22,7 +20,9 @@ const closeForm = () => {
     >
       Upcoming Events
     </h2>
-    <div class="flex lg:flex-row lg:items-center lg:gap-x-8 flex-col-reverse px-6 sm:px-16">
+    <div
+      class="flex lg:flex-row lg:items-center lg:gap-x-8 flex-col-reverse px-6 sm:px-16"
+    >
       <!-- section_1 -->
       <div class="py-8">
         <h2 class="text-3xl font-bold">Summer 2023 Tournament</h2>

@@ -1,7 +1,17 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-import MenuIcon from "vue-material-design-icons/Menu.vue";
+// import MenuIcon from "vue-material-design-icons/Menu.vue";
+import { BxMenuAltRight } from "@kalimahapps/vue-icons";
+import { CgClose } from "@kalimahapps/vue-icons";
 import Footer from "./components/footer.vue";
+import { ref } from "vue";
+const openMenu = ref(true);
+const showMenu = () => {
+  openMenu.value = false;
+};
+const closeMenu = () => {
+  openMenu.value = !openMenu.value;
+};
 </script>
 
 <template>
@@ -15,10 +25,15 @@ import Footer from "./components/footer.vue";
         height="80"
         alt="rugby_logo"
       />
-      <MenuIcon
-        size="32"
-        class="cursor-pointer lg:hidden"
-        @click="show"
+      <BxMenuAltRight
+        v-if="openMenu"
+        class="w-9 h-12 cursor-pointer"
+        @click="showMenu"
+      />
+      <CgClose
+        v-else
+        @click="closeMenu"
+        class="w-9 h-8 cursor-pointer"
       />
 
       <nav

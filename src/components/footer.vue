@@ -36,9 +36,9 @@ import { RouterLink, RouterView } from "vue-router";
       </nav>
       <hr class="border-gray-400 border-t-1 my-16 hidden lg:block" />
       <div
-        class="bg-[rgba(13, 25, 57, 1)] flex justify-between items-center mt-8"
+        class="bg-[rgba(13, 25, 57, 1)] flex justify-between items-center mt-8 text-sm"
       >
-        <p class="text-sm">
+        <p>
           ©ADSA 2023. African Diaspora Squash Association All Rights Reserved.
         </p>
         <div class="space-x-8 lg:flex items-center hidden">
